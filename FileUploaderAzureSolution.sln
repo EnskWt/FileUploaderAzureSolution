@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileUploaderAzure.Functions", "FileUploaderAzure.Functions\FileUploaderAzure.Functions.csproj", "{E44C5A09-25B8-41BB-BA59-8966ABC18097}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Functions", "Functions", "{A72E0DB3-417A-4D26-ACBC-DF7DE62F1366}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3B072D8C-D4B0-49F6-A062-E7D5DD2C2CF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileUploaderAzure.UnitTests", "FileUploaderAzure.UnitTests\FileUploaderAzure.UnitTests.csproj", "{47E33FFB-6E5F-4DC1-B0B7-0C432DD41840}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E44C5A09-25B8-41BB-BA59-8966ABC18097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E44C5A09-25B8-41BB-BA59-8966ABC18097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E44C5A09-25B8-41BB-BA59-8966ABC18097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E44C5A09-25B8-41BB-BA59-8966ABC18097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47E33FFB-6E5F-4DC1-B0B7-0C432DD41840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47E33FFB-6E5F-4DC1-B0B7-0C432DD41840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47E33FFB-6E5F-4DC1-B0B7-0C432DD41840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47E33FFB-6E5F-4DC1-B0B7-0C432DD41840}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E44C5A09-25B8-41BB-BA59-8966ABC18097} = {A72E0DB3-417A-4D26-ACBC-DF7DE62F1366}
+		{47E33FFB-6E5F-4DC1-B0B7-0C432DD41840} = {3B072D8C-D4B0-49F6-A062-E7D5DD2C2CF1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5E82A77-7414-4155-B0B2-06DC5042FA34}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "FileUploaderAzure.Functions": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7058",
+      "launchBrowser": false
+    }
+  }
+}
